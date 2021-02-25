@@ -1,4 +1,6 @@
-﻿namespace WachtrijApp
+﻿using System;
+
+namespace WachtrijApp
 {
     partial class FormWachtrij
     {
@@ -104,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Peru;
+            this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(279, 227);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
@@ -119,6 +121,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void labelTitel_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

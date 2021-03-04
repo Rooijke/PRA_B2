@@ -190,5 +190,10 @@ namespace WachtrijApp
         {
 
         }
+
+        private void labelKar3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
